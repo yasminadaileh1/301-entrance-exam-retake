@@ -38,8 +38,9 @@ function render(){
 
         var tdEl = document.createElement('td');
         trEl.appendChild(tdEl);
-        tdEl.textContent = orderArr[0];
-        getItem();
+        tdEl.textContent = Order.foodType;
+        
+      
         console.log('hi');
     }
 

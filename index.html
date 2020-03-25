@@ -6,9 +6,31 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Hunger Restaurant</title>
   <link rel="stylesheet" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header>
+    <h1> Resturant APP</h1>
+  </header>
+  <main>
+    <form id="form">
+      <fieldset>
+        <legend></legend>
+        <label for="order"> What Do You Like to Order</label>
+        <select id="orderd">
+          <option value="burger">Burger</option>
+          <option value="pizza"> pizza</option>
+          <option value="salad">salad</option>
+          <option value="pepsi">pepsi</option>
+        </select>
+        <label for="quantity">Quantity</label>
+        <input type="number" placeholder="How many Item you wuold like to Order" id="quantity"> 
+        <input type="submit">
+      </fieldset>
+    </form>
+    <div id="tableOrder"></div>
+  </main>
 
   <script src="js/app.js"></script>
 </body>
